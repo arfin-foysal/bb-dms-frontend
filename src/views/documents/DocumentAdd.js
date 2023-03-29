@@ -110,6 +110,8 @@ function DocumentAdd() {
                         ))}
                       </Form.Control>
                     </Col>
+
+                    
                     <Col className={catagory_id === undefined ? 'd-none' : 'd-block'}>
                       <Form.Label>Sub Category</Form.Label>
                       <Form.Control

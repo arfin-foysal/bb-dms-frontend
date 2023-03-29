@@ -6,7 +6,7 @@ import { authApiContext } from '../../../contexts/Api/AuthApi';
 import Breadcrumb from '../../../layouts/AdminLayout/Breadcrumb';
 import logo from '../../../../src/assets/images/logo.png';
 import { toast, ToastContainer } from 'react-toastify';
-const SignIn1 = () => {
+const SignUp1 = () => {
   const { registration } = useContext(authApiContext);
   const [allData, setData] = useState({
     name: '',
@@ -150,8 +150,8 @@ const SignIn1 = () => {
                   </form>
                   <p className="mb-2">
                     Already have an account?
-                    <NavLink to="/auth/signin" className="f-w-400">
-                      Sign In
+                    <NavLink to="/auth/signin" className="f-w-400 pl-1">
+                       Sign In
                     </NavLink>
                   </p>
                 </Card.Body>
@@ -164,4 +164,4 @@ const SignIn1 = () => {
   );
 };
 
-export default SignIn1;
+export default SignUp1;
