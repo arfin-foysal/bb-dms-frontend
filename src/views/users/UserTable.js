@@ -32,7 +32,7 @@ function UserTable() {
           <Card.Header>
             <div className="d-flex justify-content-between">
               <div>
-                <Card.Title as="h5">User</Card.Title>
+                <Card.Title as="h5">User List</Card.Title>
               </div>
               <div>
                 <span className="me-auto pointer">
